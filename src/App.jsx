@@ -25,16 +25,10 @@ function App() {
   }, []);
 
   return !loading ? (
-    <div className="w-full min-h-screen flex flex-wrap content-between bg-slate-900 text-blue-100">
-      <div className="w-full block relative">
-        <NavBar />
-        <main className="flex items-center justify-center h-1/2">
-          <Outlet />
-        </main>
-        <div className=" absolute bottom-0 w-full">
-          <Footer />
-        </div>
-      </div>
+    <div className="text-blue-100 flex flex-col gap-52 lg:gap-10 ">
+      <NavBar />
+      <Outlet />
+      <Footer />
     </div>
   ) : (
     <>

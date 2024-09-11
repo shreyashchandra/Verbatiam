@@ -15,7 +15,7 @@ function AllPost() {
 
   return (
     <>
-      <div className="w-full p-10 mt-[680px] mb-[680px] lg:mt-56 lg:mb-56">
+      <div className="w-full">
         <Container>
           <div className="flex flex-col lg:flex-row flex-wrap">
             {posts.map((post) => (

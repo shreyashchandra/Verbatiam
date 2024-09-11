@@ -76,7 +76,7 @@ function PostForm({ post }) {
     <>
       <form
         onSubmit={handleSubmit(submit)}
-        className="flex flex-wrap p-44 mt-28 mb-36"
+        className="flex flex-wrap px-12 mb-36"
       >
         <div className="w-2/3 px-2">
           <Input
