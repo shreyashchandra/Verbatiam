@@ -5,20 +5,20 @@ const Footer = () => {
     <div className="w-full flex flex-col justify-center items-center p-5  shadow-slate-100 shadow-sm">
       <h1 className="text-sm">
         Design and Built By{" "}
-        <Link className="font-bold hover:text-sky-300" to="/">
+        <Link className="font-bold hover:text-sky-300" to="/https://shreyash.space/">
           @shreyashchandra
         </Link>
       </h1>
       <footer>
         <ul className="flex text-xs font-semibold gap-4 items-center mt-3 ">
           <li>
-            <Link className="hover:text-green-300" to="/">
+            <Link className="hover:text-green-300" to="/https://x.com/shreyashchandra">
               Twitter
             </Link>
           </li>
 
           <li>
-            <Link className="hover:text-green-300" to="/">
+            <Link className="hover:text-green-300" to="/https://www.instagram.com/shreyashchandra/">
               Instagram
             </Link>
           </li>
